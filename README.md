@@ -32,3 +32,10 @@ O projeto permite realizar as seguintes operações:
 ### Dependências
 - **Frontend**: Informe-se a partir do package.json do projeto
 - **Backend**: Informe-se a partir do requirements.txt do projeto para criar o ambiente virtual em sua máquina
+
+----------------------------------------
+
+## Instalação Básica
+
+- 1: Entre no terminal na raíz do projeto para criar um ambiente virtual e instalar todas as dependências do backend à partir do arquivo "requirements.txt"
+- 2: Na pasta que estar o frontend (dogviter), instale as dependências do react (vite)
