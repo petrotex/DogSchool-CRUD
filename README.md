@@ -23,6 +23,7 @@ O projeto permite realizar as seguintes operações:
 ### Backend
 - **Django**: Framework web Python utilizado para criar a API.
 - **Django REST Framework (DRF)**: Facilita a criação de APIs RESTful no Django.
+- **Postgree/MySQL**
   
 ### Frontend
 - **React**: Biblioteca JavaScript para construir interfaces de usuário.
