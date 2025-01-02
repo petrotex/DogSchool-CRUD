@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-dog {
+  background-image: url("../assets/backgroundDog.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* src/components/DogList.css */
+.dog-list-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.fixed-size {
+  width: 600px;  /* largura fixa */
+  height: 600px; /* altura fixa */
+  object-fit: contain; /* ajusta a imagem dentro do contêiner sem cortar */
+}
+
+/* Remover o ponto (bullet) da lista */
+.dog-list-container ul {
+  list-style-type: none; /* Adiciona esta linha */
+  padding: 0;
+}
+
+.dog-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.dog-link-name {
+  color: #007bff;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.dog-link {
+  background-color: #eb9e34;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.dog-link:hover {
+  color: #fff;
+  background-color: #c27f21;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.actions {
+  float: right;
+}
+
+.dog-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 10px 0 0 10px;
+}
+
+.create-button:hover {
+  background-color: #218838;
+  color: #fff;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
